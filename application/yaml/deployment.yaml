@@ -23,8 +23,7 @@ spec:
             - containerPort: 8080
               protocol: TCP
           imagePullPolicy: IfNotPresent
-# Update with the image you build in part 1
-          image: 'quay.io/riko2001/my_image:v1'
+          image: 'quay.io/riko2001/my_image:v2'
       restartPolicy: Always
       terminationGracePeriodSeconds: 30
   strategy:
